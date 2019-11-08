@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bug Bounty - Information Disclosure through error message + WAF Bypass led to Local File Inclusion"
+categories: BugBounty
 ---
 ## Bug Bounty - Information Disclosure through error message + WAF Bypass led to Local File Inclusion
 

@@ -1,8 +1,8 @@
 title: Hacking related blog
 email: n/a
 description: "This blog is about cybersecurity related stuff, such as Bug Bounty, Penetration Testing, CTFs, etc."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: ""
 twitter_username: spenkkkkk
 github_username:  spenkk
 
@@ -14,19 +14,10 @@ plugins:
 
 header_pages:
   - index.md
+  - categories.md
   - about.md
 
-style: dark # dark (default) or light
-footer: 'Theme by [b2a3e8](https://github.com/b2a3e8/)'
+permalink: /:categories/:title/
 
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+style: dark
+footer: "Theme by [b2a3e8](https://github.com/b2a3e8/)"

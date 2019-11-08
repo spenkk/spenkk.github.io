@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LiveHelperChat - Remote Code Execution via Vulnerable Theme Upload Function"
+categories: Research
 ---
 ## LiveHelperChat - Remote Code Execution via Vulnerable Theme Upload Function
 
