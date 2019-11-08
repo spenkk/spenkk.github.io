@@ -5,7 +5,7 @@
  * Style variables
  */
 $base-font-family:     'Source Code Pro', monospace !default;
-$base-font-size:       12.5px !default;
+$base-font-size:       13px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
@@ -27,6 +27,7 @@ h3:before { content: "###";  margin-right: 9px; }
 h4:before { content: "####";  margin-right: 9px; }
 h5:before { content: "#####";  margin-right: 9px; }
 h6:before { content: "######";  margin-right: 9px; }*/
+.image-class { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
 
 /**
  * Layout

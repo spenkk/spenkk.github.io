@@ -1,7 +1,5 @@
 ---
-title: /home
+title: ~/index
 layout: home
 permalink: /
 ---
-
-# Under Construction
