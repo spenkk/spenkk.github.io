@@ -73,7 +73,7 @@ Browsing to /lucee/lucee/admin/web.cfm?action=server.error we could change the f
 ![Lucee Interface]({{ site.baseurl }}/assets/images/image4.png){:.container}
 &nbsp;
 
-**To execute the error.cfm, we made a request on a page that returned eror 500**
+**To execute the error.cfm, we made a request on a page that returned error 500**
 ```bash
 curl -X GET \
 https://IP/lucee/lucee/admin/web.cfm?action=debugging.logs&action2=detail&id=DCF806E56E1192D43C0A8B64EC573BC6
