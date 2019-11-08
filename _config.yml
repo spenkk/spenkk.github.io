@@ -17,7 +17,7 @@ header_pages:
   - about.md
 
 style: dark # dark (default) or light
-footer: 'follow me on twitter twitter.com/spenkkkkk'
+footer: 'Theme by [b2a3e8](https://github.com/b2a3e8/)'
 
 # exclude:
 #   - .sass-cache/
