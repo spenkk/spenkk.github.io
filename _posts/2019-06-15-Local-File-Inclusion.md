@@ -15,7 +15,7 @@ A vulnerable directory was found which led to an information disclosure through 
 # Exploitation:
 While bruteforcing hidden directories and looking through waybackurls, we found a path **/cfapps/** which output the error as shown in the picture below.
 &nbsp;
-![full path disclosure]({{ site.baseurl }}/assets/images/image2.png){:.container}
+![full path disclosure]({{ site.baseurl }}/assets/images/image2.png){:.images}
 
 &nbsp;
 
@@ -57,7 +57,7 @@ PORT STATE SERVICE VERSION
 
 We decided to report this because we thought that it would count as valid bug as it was exposing full paths but..
 &nbsp;
-![h1 reply]({{ site.baseurl }}/assets/images/image3.png){:.container}
+![h1 reply]({{ site.baseurl }}/assets/images/image3.png){:.images}
 &nbsp;
 We continued our research to come up with an attack vector. We managed to log in into Lucee framework then abused Error Mapping function. What this function does is that when an error occurs, it redirects to a default error which is stored in a local file, in our case we could change it to read sensitive files.
 &nbsp;
@@ -71,7 +71,7 @@ This prompts for a new password, which we set to admin321. We could log out and 
 &nbsp;
 Browsing to /lucee/lucee/admin/web.cfm?action=server.error we could change the function when the application receives an 404 or 500 error, we changed the 500 error from default value (/lucee/templates/error/error.cfm) to **../../../../../../../../../../etc/passwd.**
 &nbsp;
-![Lucee Interface]({{ site.baseurl }}/assets/images/image4.png){:.container}
+![Lucee Interface]({{ site.baseurl }}/assets/images/image4.png){:.images}
 &nbsp;
 
 **To execute the error.cfm, we made a request on a page that returned error 500**
@@ -113,7 +113,7 @@ Content-Type: text/html;charset=UTF-8
 >{: style="color: red"}
 
 &nbsp;
-![passwd]({{ site.baseurl }}/assets/images/image5.png){:.container}
+![passwd]({{ site.baseurl }}/assets/images/image5.png){:.images}
 &nbsp;
 We also managed to read ../../../../../../../../../../../../usr/share/tomcat/conf/server.xml
 &nbsp;

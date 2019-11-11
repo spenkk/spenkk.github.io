@@ -51,7 +51,7 @@ After the theme with the exploit is prepared it is uploaded on the web server in
 > **/lhc_web/index.php/site_admin/theme/import**{: style="color: red"}
 &nbsp;
 
-![import theme]({{ site.baseurl }}/assets/images/image1.png){:.container}
+![import theme]({{ site.baseurl }}/assets/images/image1.png){:.images}
 &nbsp;
 
 After the upload is successful, the user must edit the imported theme at the Widget themes section. When the page is loaded, so is the php web shell. In our case, we have identified the path where the shell has been uploaded by viewing the page source and viewing the file path of the **offline_image_data** parameter:
