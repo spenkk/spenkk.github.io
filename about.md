@@ -11,7 +11,7 @@ permalink: /about/
 
 # Teams
 pwntheroot
-Member of XOR - Cyber Community
+Member of [XOR - Cyber Community](https://xor.al/)
 
 ## You can find me on:
 
