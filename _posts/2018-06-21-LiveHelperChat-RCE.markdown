@@ -99,4 +99,5 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 
 # Vulnerability found by:
-Me and [0xcela](https://twitter.com/0xcela)
+Me and [0xcela](https://twitter.com/0xcela) while we were working on [Sentry](https://sentry.co.com)
+
