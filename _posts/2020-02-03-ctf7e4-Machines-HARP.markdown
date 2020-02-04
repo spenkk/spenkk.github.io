@@ -52,7 +52,7 @@ From the nmap scan output, we can see that there is a web server running on port
 ![elk]({{ site.baseurl }}/assets/images/ctf7e4/machines/harp1.png){:.images}
 &nbsp;
 
-Using a tool such as searchsploit we can search for known exploits that are published on [exploit-db](https://exploit-db.com). From our search results, we can that Haraka versions prior to 2.8.9 suffer from a Remote Command Execution.
+Using a tool such as searchsploit we can search for known exploits that are published on [exploit-db](https://exploit-db.com). From our search results, we can see that Haraka version prior to 2.8.9 suffers from a Remote Command Execution.
 
 
 &nbsp;
@@ -61,7 +61,7 @@ Using a tool such as searchsploit we can search for known exploits that are publ
 
 > **→ cp /usr/share/exploitdb/exploits/linux/remote/41162.py exploit.py**{: style="color: red"}
 
-To test if the exploit works, we can listen for a connection on a specific port with netcat.
+To test if the exploit works, we can listen for a connection on a random port in our machine.
 
 > **→ nc -lnvp 9000**{: style="color: red"}
 
@@ -74,7 +74,7 @@ And send a request to our server using curl or wget from the attacker machine.
 ![elk]({{ site.baseurl }}/assets/images/ctf7e4/machines/harp3.png){:.images}
 &nbsp;
 
-This means that the command that we send with the python script was executed. We can proceed to get a reverse shell with **nc** so we can find and read the **flag.txt**.
+This means that the command we sent with the python script was executed. We can proceed to get a reverse shell with **nc** so we can find and read the **flag.txt**.
 
 > **→ nc -lnvp 1337**{: style="color: red"}
 

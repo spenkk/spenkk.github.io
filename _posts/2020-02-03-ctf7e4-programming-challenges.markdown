@@ -26,7 +26,7 @@ c0mp1led.pyc: data
 .pyc files are created by the Python interpreter when a .py file is imported. They contain the "compiled bytecode" of the imported module/program so that the "translation" from source code to bytecode (which only needs to be done once) can be skipped on subsequent imports if the .pyc is newer than the corresponding .py file, thus speeding startup a little. But it's still interpreted.
 &nbsp;
 
-With linux native binary **strings** we can view most of the strings that are in a binary file. Lets use that to see if the flag is hardcoded.
+With linux native binary **strings** we can view most of the strings that are present in a binary file. Lets use that to see if the flag is hardcoded.
 
 > **→ strings -d c0mp1led.pyc**{: style="color: red"}
 

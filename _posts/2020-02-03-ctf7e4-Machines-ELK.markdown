@@ -6,7 +6,7 @@ categories: CTF7E4
 
 ## Summary
 &nbsp;
-This machine was more about enumeration and bruteforcing, such as finding new subdomains that are not visible by default on ssl cert and ssh spraying using different tools for bruteforcing such as THC-Hydra. The last step for privilege escalation it's about abusing a native linux binary which had SUID permissions.
+This machine was more about enumeration and bruteforcing, such as finding new subdomains that are not visible by default on ssl cert and ssh spraying using different tools for bruteforcing such as THC-Hydra. The last step for privilege escalation was about abusing a native linux binary which had SUID permissions.
 &nbsp;
 
 - **OS:** Linux
@@ -58,7 +58,7 @@ From the nmap scan output, we can see that there is a web server running on port
 ![elk]({{ site.baseurl }}/assets/images/ctf7e4/machines/elk1.png){:.images}
 &nbsp;
 
-Running files and directory discovery tools resulted in nothing so we started to bruteforce new subdomains. We can do that using differnet tools such as gobuster, wfuzz, ffuf, etc. I prefer ffuf for it's speed and available options to filter content. While bruteforcing subdomains a lot of them returned with the same page size (10918), so to filter the output we can use **\--fs 10918**.
+Running file and directory discovery tools resulted in nothing so we started to bruteforce new subdomains. We can do that using differnet tools such as gobuster, wfuzz, ffuf, etc. I prefer ffuf for it's speed and available options to filter content. While bruteforcing subdomains a lot of them returned with the same page size (10918), so to filter the output we can use **\--fs 10918**.
 
 > **→ ffuf -c -u 'http://10.10.10.11' -w ~/tools/SecLists/Discovery/DNS/shubs-subdomains.txt -H "Host: FUZZ.elk.xor" -fs 10918**{: style="color: red"}
 
@@ -87,7 +87,7 @@ Since **.xlsx** is a format for Microsoft Excel files, we can use an online Exce
 ![elk]({{ site.baseurl }}/assets/images/ctf7e4/machines/elk5.png){:.images}
 &nbsp;
 
-To use this file as a combo list, we can first convert it to a csv file so we can easily sort fileds such as users and passwords.
+To use this file as a combo list, we can first convert it to a csv file so then we can easily sort fields such as users and passwords.
 
 > **→ cat employee.csv \| cut -d ',' -f 1 >> users.txt**{: style="color: red"}
 > **→ cat employee.csv \| cut -d ',' -f 2 >> passwords.txt**{: style="color: red"}
@@ -110,7 +110,7 @@ Then we can continue with ssh passwords spraying using Hydra. Some times it's ne
 ![elk]({{ site.baseurl }}/assets/images/ctf7e4/machines/elk7.png){:.images}
 &nbsp;
 
-First things that I like to check for privilege escalation is running **'sudo -l'** command to see if current user has permissions to run a specific command without password as root.
+First things that I like to check for privilege escalation is running **'sudo -l'** command to see if current user has permissions to run a specific command as root without entering the password or being into sudo group.
 
 > **crista@elk:~$ sudo -l**{: style="color: red"}
 [sudo] password for crista: ^C
@@ -118,7 +118,7 @@ First things that I like to check for privilege escalation is running **'sudo -l
 > **crista@elk:~$ cat /etc/group | grep sudo**{: style="color: red"}
 sudo:x:27:
 
-Then proceed to finding SUID binaries, if there are any. Now it's much easier when you find one because there exists a great [website](https://gtfobins.github.io) where you can find different PoCs for native binaries.
+Then proceed to finding SUID binaries, if there are any. Now it's much easier when you find one because a great [website](https://gtfobins.github.io) exists, where you can find different PoCs for native binaries.
 
 &nbsp;
 ![elk]({{ site.baseurl }}/assets/images/ctf7e4/machines/elk8.png){:.images}
