@@ -10,5 +10,5 @@ permalink: /about/
 [LinkedIn](https://linkedin.com/in/arbensshala)
 [GitHub](https://github.com/spenkk)
 [HackerOne](https://hackerone.com/arbenn)
+[BugCrowd](https://bugcrowd.com/arbenn)
 [HackTheBox](https://www.hackthebox.eu/profile/19869)
-[Root-Me](https://www.root-me.org/spenkk)
