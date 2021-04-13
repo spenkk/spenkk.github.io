@@ -9,6 +9,7 @@ permalink: /about/
 [Twitter](https://twitter.com/spenkkkkk)
 [LinkedIn](https://linkedin.com/in/arbensshala)
 [GitHub](https://github.com/spenkk)
+[CobaltCore](https://app.cobalt.io/ashala)
 [HackerOne](https://hackerone.com/arbenn)
 [BugCrowd](https://bugcrowd.com/arbenn)
 [HackTheBox](https://www.hackthebox.eu/profile/19869)
