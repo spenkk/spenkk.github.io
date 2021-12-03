@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+*.log
+.env
+.idea/
+.vscode/
+*.sw*
+.DS_Store
