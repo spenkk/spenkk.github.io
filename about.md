@@ -13,6 +13,11 @@ As a penetration tester, I have deep experience with performing vulnerability as
 &nbsp;
 I spend my free time either bug hunting on [Synack](https://www.synack.com/red-team/) or challenging myself on CTF platforms and learning new techniques. I am part of "pwntheroot" CTF group that is made up by me and [0xCela](https://twitter.com/0xcela). We participate frequently in online and live hacking events  which on some of them we managed to take the first place multiple times, such as "The Day When Hacking Is Legal" event.
 
+# Certifications:
+
+[OSCP](https://www.credential.net/24b5cdee-cd23-44d8-9f22-a01526ae3320#gs.vv0uhs)
+[CEHv10](https://bit.ly/2H5VsVd)
+
 # You can find me on:
 
 [Twitter](https://twitter.com/arbennsh)
