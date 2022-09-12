@@ -1,6 +1,6 @@
-title: Hacking related blog
+title: "Arben Shala | Personal Blog"
 email: n/a
-description: "This blog is about cybersecurity related stuff, such as Bug Bounty, Penetration Testing, CTFs, etc."
+description: ""
 baseurl: ""
 url: ""
 twitter_username: arbennsh
@@ -20,4 +20,5 @@ header_pages:
 permalink: /:categories/:title/
 
 style: dark
+listen_for_clients_preferred_style: true
 footer: ""
