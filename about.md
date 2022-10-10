@@ -24,6 +24,7 @@ I spend my free time either bug hunting on [Synack](https://www.synack.com/red-t
 [LinkedIn](https://linkedin.com/in/arbensshala)
 [GitHub](https://github.com/spenkk)
 [CobaltCore](https://app.cobalt.io/ashala)
+[Yogosha](https://app.yogosha.com/r/arbenn)
 [HackerOne](https://hackerone.com/arbenn)
 [BugCrowd](https://bugcrowd.com/arbenn)
 [HackTheBox](https://www.hackthebox.eu/profile/19869)
