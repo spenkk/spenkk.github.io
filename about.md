@@ -7,11 +7,11 @@ permalink: /about/
 # Whoami?
 &nbsp;
 
-<img style="padding-right: 20px;" width="284" height="270" align="left" src="{{ site.baseurl }}/assets/images/profile.png">I am a computer enthusiast with a passion for hacking since I was a little kid. This led me to pursue a career in offensive security.
+Since I was a little kid, I have always had a deep interest in computers and a passion for hacking. Because of this, I decided to go into the field of offensive security.
 &nbsp;
-As a penetration tester, I have deep experience with performing vulnerability assessments, testing networks, web applications, mobile applications and also perform source code analysis for various technologies.
+As a penetration tester, I am experienced in analyzing source code, conducting vulnerability assessments, and testing networks and web/mobile applications. I am currently working as a full time Senior Security Researcher @ [Pretera](https://pretera.com/).
 &nbsp;
-I spend my free time either bug hunting on [Synack](https://www.synack.com/red-team/) or challenging myself on CTF platforms and learning new techniques. I am part of "pwntheroot" CTF group that is made up by me and [0xCela](https://twitter.com/0xcela). We participate frequently in online and live hacking events  which on some of them we managed to take the first place multiple times, such as "The Day When Hacking Is Legal" event.
+IWhen I'm not working, I'm either bug hunting on [Synack](https://www.synack.com/red-team/) or testing my skills in CTF platforms. I am part of "pwntheroot" CTF group that is made up by me and [0xCela](https://twitter.com/0xcela). We participate frequently in online and live hacking events  which on some of them we managed to take the first place multiple times, such as "The Day When Hacking Is Legal" event.
 
 # Certifications:
 
@@ -24,7 +24,7 @@ I spend my free time either bug hunting on [Synack](https://www.synack.com/red-t
 [LinkedIn](https://linkedin.com/in/arbensshala)
 [GitHub](https://github.com/spenkk)
 [CobaltCore](https://app.cobalt.io/ashala)
-[Yogosha](https://app.yogosha.com/r/arbenn)
-[HackerOne](https://hackerone.com/arbenn)
 [BugCrowd](https://bugcrowd.com/arbenn)
+[HackerOne](https://hackerone.com/arbenn)
+[Yogosha](https://app.yogosha.com/r/arbenn)
 [HackTheBox](https://www.hackthebox.eu/profile/19869)
