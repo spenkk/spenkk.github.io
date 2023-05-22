@@ -11,7 +11,7 @@ Since I was a little kid, I have always had a deep interest in computers and a p
 &nbsp;
 As a penetration tester, I am experienced in analyzing source code, conducting vulnerability assessments, and testing networks and web/mobile applications. I am currently working as a full time Senior Security Researcher @ [Pretera](https://pretera.com/).
 &nbsp;
-IWhen I'm not working, I'm either bug hunting on [Synack](https://www.synack.com/red-team/) or testing my skills in CTF platforms. I am part of "pwntheroot" CTF group that is made up by me and [0xCela](https://twitter.com/0xcela). We participate frequently in online and live hacking events  which on some of them we managed to take the first place multiple times, such as "The Day When Hacking Is Legal" event.
+When I'm not working, I'm either bug hunting on [Synack](https://www.synack.com/red-team/) or testing my skills in CTF platforms. I am part of "pwntheroot" CTF group that is made up by me and [0xCela](https://twitter.com/0xcela). We participate frequently in online and live hacking events  which on some of them we managed to take the first place multiple times, such as "The Day When Hacking Is Legal" event.
 
 # Certifications:
 
