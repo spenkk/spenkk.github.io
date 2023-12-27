@@ -17,6 +17,8 @@ When I'm not working, I'm either bug hunting on [Synack](https://www.synack.com/
 
 [OSCP](https://www.credential.net/24b5cdee-cd23-44d8-9f22-a01526ae3320#gs.vv0uhs)
 [BSCP](https://portswigger.net/web-security/e/c/888362b042e4f7a2)
+[CREST](https://www.crest-approved.org/skills-certifications-careers/verify-a-certificate/)
+[CARTP](https://www.credential.net/b8ed4759-9ab1-4e23-adf2-80e35ab03362)
 [CEHv10](https://bit.ly/2H5VsVd)
 
 # You can find me on:
