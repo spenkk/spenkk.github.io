@@ -7,11 +7,12 @@ permalink: /about/
 # Whoami?
 &nbsp;
 
-Since I was a little kid, I have always had a deep interest in computers and a passion for hacking. Because of this, I decided to go into the field of offensive security.
+Since I was a little kid, I have always had a deep interest in computers and a passion for hacking. Because of this, I decided to dive into the field of offensive security.
 &nbsp;
-As a penetration tester, I am experienced in analyzing source code, conducting vulnerability assessments, and testing networks and web/mobile applications. I am currently working as a full time Senior Security Researcher @ [Pretera](https://pretera.com/).
+I am experienced in analyzing source code, conducting vulnerability assessments, and testing networks and web/mobile applications. I am currently working as a full time Senior Security Researcher @ [Pretera](https://pretera.com/) mostly focused on red team engagements.
 &nbsp;
-When I'm not working, I'm either bug hunting on [Synack](https://www.synack.com/red-team/) or testing my skills in CTF platforms. I am part of "pwntheroot" CTF group that is made up by me and [0xCela](https://twitter.com/0xcela). We participate frequently in online and live hacking events  which on some of them we managed to take the first place multiple times, such as "The Day When Hacking Is Legal" event.
+When I’m not working, I’m either bug hunting on differnt platforms or sharpening my skills on CTF platforms like HackTheBox, where I’ve managed to achieve a [Top 10 rank](https://www.hackthebox.com/achievement/badge/19869/2) in their Hall of Fame. I’ve also taken part in live hacking events such as “The Day When Hacking Is Legal” alongside my colleague and friend [0xCela](https://www.linkedin.com/in/clirimemini) as part of the "pwntheroot" team, where we’ve secured first place multiple times.
+
 
 # Certifications:
 
@@ -26,8 +27,8 @@ When I'm not working, I'm either bug hunting on [Synack](https://www.synack.com/
 [Twitter](https://twitter.com/arbennsh)
 [LinkedIn](https://linkedin.com/in/arbensshala)
 [GitHub](https://github.com/spenkk)
-[CobaltCore](https://app.cobalt.io/ashala)
+[Cobalt Core](https://app.cobalt.io/ashala)
 [BugCrowd](https://bugcrowd.com/arbenn)
 [HackerOne](https://hackerone.com/arbenn)
 [Yogosha](https://app.yogosha.com/r/arbenn)
-[HackTheBox](https://www.hackthebox.eu/profile/19869)
+[HackTheBox](https://app.hackthebox.eu/profile/19869)
