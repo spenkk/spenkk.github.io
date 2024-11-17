@@ -4,7 +4,7 @@ title: ~/about
 permalink: /about/
 ---
 
-`$> whoami`
+`$> whoami`{: style="color: red"}
 &nbsp;
 
 Since I was a little kid, I have always had a deep interest in computers and a passion for hacking. Because of this, I decided to dive into the field of offensive security.
