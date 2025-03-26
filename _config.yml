@@ -20,5 +20,5 @@ header_pages:
 permalink: /:categories/:title/
 
 style: dark
-listen_for_clients_preferred_style: true
+listen_for_clients_preferred_style: false
 footer: ""
