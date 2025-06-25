@@ -7,6 +7,8 @@ largeimage: /assets/images/59.png
 author: arbennsh
 ---
 
-*Note: The vulnerability was found during my research at Pretera so please read the article originally published [here -> https://www.pretera.com/barcode-scanner-what-could-go-wrong/](https://www.pretera.com/barcode-scanner-what-could-go-wrong/), in Pretera's blog. Thank you!* 
+The vulnerability was found during my research at Pretera so please read the article originally published in Pretera's blog. Thank you!
+&nbsp;
+- [https://www.pretera.com/barcode-scanner-what-could-go-wrong/](https://www.pretera.com/barcode-scanner-what-could-go-wrong/)
 &nbsp;
 
