@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exploiting a Stack Based Buffer Overflow (OSCP Preparation)"
-categories: Pentest
+categories: Research
 ---
 ## Exploiting a Stack Based Buffer Overflow (OSCP Preparation)
 

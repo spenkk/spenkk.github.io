@@ -64,6 +64,52 @@ footer { margin-bottom: 20px; }
 .menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: red }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
+.theme-toggle { 
+  background: none;  
+  border: var(--code-border);  
+  border-radius: 12px;  
+  width: 32px;  
+  height: 16px;  
+  padding: 0;  
+  margin: 0;  
+  cursor: pointer;  
+  position: relative;  
+  display: inline-block;  
+  vertical-align: middle;  
+  background-color: var(--code-background);  
+  transition: background-color 0.3s;  
+}
+.theme-toggle.dark-mode { 
+  background-color: var(--text-color);  
+}
+.theme-toggle.dark-mode::after { 
+  content: '';  
+  position: absolute;  
+  top: 1px;  
+  right: 1px;  
+  width: 13px;  
+  height: 13px;  
+  border-radius: 50%;  
+  background-color: var(--background-color);  
+  transition: transform 0.3s;  
+}
+.theme-toggle.light-mode { 
+  background-color: var(--code-background);  
+}
+.theme-toggle.light-mode::after { 
+  content: '';  
+  position: absolute;  
+  top: 1px;  
+  left: 1px;  
+  width: 13px;  
+  height: 13px;  
+  border-radius: 50%;  
+  background-color: var(--text-color);  
+  transition: transform 0.3s;  
+}
+.theme-toggle:hover { 
+  opacity: 0.8;  
+}
 
 /**
  * Form
@@ -84,7 +130,8 @@ textarea { vertical-align: top; }
  */
 .lineno { color: var(--code-color-1); margin-right: 15px; }
 figure.highlight { margin: 5px 0; }
-pre { background-color: var(--background-color);  border: none;  padding: 0;  margin: 0;  overflow:auto;  font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
+pre { background-color: var(--code-background);  border: var(--code-border);  border-radius: 3px;  padding: 12px;  margin: 10px 0;  overflow:auto;  font-size: $base-font-size;  color: var(--text-color);  line-height: 1.7 !important;  font-family: $base-font-family !important; }
+pre code { background-color: transparent;  border: none;  padding: 0;  border-radius: 0; }
 .highlight .hll { background-color: var(--code-color-2); }
 .highlight .c { color: var(--code-color-1); font-style: italic } /* Comment */
 .highlight .err { color: var(--code-color-3); background-color: var(--code-color-4); } /* Error */

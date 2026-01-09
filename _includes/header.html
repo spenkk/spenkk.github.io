@@ -8,6 +8,7 @@
         <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
         {%- endif -%}
       {%- endfor -%}
+      <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode"></button></li>
     </ul>
   </div>
 </header>

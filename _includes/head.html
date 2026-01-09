@@ -14,15 +14,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
   <title>{{ page.title }}</title>
-  {%- if site.listen_for_clients_preferred_style -%}
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
-  {%- else -%}
-    {%- if site.style == 'light' -%}
-     <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
-   {%- else -%}
-      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
-    {%- endif -%}
-  {%- endif -%}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}" id="light-theme">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}" id="dark-theme">
+  <script src="{{ "/assets/theme-toggle.js" | relative_url }}" defer></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
