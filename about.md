@@ -4,16 +4,6 @@ title: ~/about
 permalink: /about/
 ---
 
-`$> whoami`{: style="color: red"}
-&nbsp;
-
-Since I was a little kid, I have always had a deep interest in computers and a passion for hacking. Because of this, I decided to dive into the field of offensive security.
-&nbsp;
-I am experienced in analyzing source code, conducting vulnerability assessments, and testing networks and web/mobile applications. I am currently working as a full time Managing Senior Security Consultant @ [Pretera](https://pretera.com/) mostly focused on red team engagements.
-&nbsp;
-When I’m not working, I’m either bug hunting on differnt platforms or sharpening my skills on CTF platforms like HackTheBox, where I’ve managed to achieve a [Top 10 rank](https://www.hackthebox.com/achievement/badge/19869/2) in their Hall of Fame. I’ve also taken part in live hacking events such as “The Day When Hacking Is Legal” alongside my colleague and friend [0xCela](https://www.linkedin.com/in/clirimemini) as part of the "pwntheroot" team, where we’ve secured first place multiple times.
-&nbsp;
-
 `$> ls social/media/`{: style="color: red"}
 &nbsp;
 [Twitter](https://twitter.com/arbennsh)
